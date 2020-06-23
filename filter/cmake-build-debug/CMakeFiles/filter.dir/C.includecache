@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sheffieldwang/code/C++/filter/Conv.h
+memory.h
+-
+FFT.h
+/home/sheffieldwang/code/C++/filter/FFT.h
+Filter_Coff.h
+/home/sheffieldwang/code/C++/filter/Filter_Coff.h
+
+/home/sheffieldwang/code/C++/filter/FFT.h
+math.h
+-
+
+/home/sheffieldwang/code/C++/filter/Filter_Coff.h
+
+/home/sheffieldwang/code/C++/filter/Signal.h
+FFT.h
+/home/sheffieldwang/code/C++/filter/FFT.h
+
+/home/sheffieldwang/code/C++/filter/main.c
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+FFT.h
+/home/sheffieldwang/code/C++/filter/FFT.h
+Signal.h
+/home/sheffieldwang/code/C++/filter/Signal.h
+Conv.h
+/home/sheffieldwang/code/C++/filter/Conv.h
+Filter_Coff.h
+/home/sheffieldwang/code/C++/filter/Filter_Coff.h
+
