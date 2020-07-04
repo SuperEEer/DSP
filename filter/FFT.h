@@ -21,7 +21,7 @@ Complex;
 Complex c_add(Complex a,Complex b) {Complex c = {a.real + b.real,a.imag + b.imag};return c;}
 Complex c_sub(Complex a,Complex b) {Complex c = {a.real - b.real,a.imag - b.imag};return c;}
 Complex c_mul(Complex a,Complex b) {Complex c = {a.real*b.real - a.imag*b.imag,a.real*b.imag + a.imag*b.real}; return  c;}
-Complex c_abs(Complex a) { Complex c = {a.real*a.real + a.imag * a.imag,0.0}; return c; }
+Complex c_abs(Complex a) { Complex c = {sqrt(a.real*a.real + a.imag * a.imag),0.0}; return c; }
 
 void swap(Complex *a,Complex *b)
 {
@@ -111,8 +111,10 @@ Complex* IFFT(Complex* a,int n)
             }
         }
     }
-    for(int i = 0; i < n+1; i++)
+    for(int i = 0; i < n+1; i++) {
         a[i].real /= lim;
+        a[i].imag /= lim;
+    }
     return a;
 }
 

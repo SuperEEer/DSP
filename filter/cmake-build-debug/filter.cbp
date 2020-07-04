@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/sheffieldwang/code/C++/filter/cmake-build-debug"/>
+				<Option working_dir="/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/sheffieldwang/code/C++/filter/cmake-build-debug"/>
+				<Option working_dir="/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="filter">
-				<Option output="/home/sheffieldwang/code/C++/filter/cmake-build-debug/filter" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sheffieldwang/code/C++/filter/cmake-build-debug"/>
+				<Option output="/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/filter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 filter"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 filter"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="filter/fast">
-				<Option output="/home/sheffieldwang/code/C++/filter/cmake-build-debug/filter" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sheffieldwang/code/C++/filter/cmake-build-debug"/>
+				<Option output="/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/filter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,39 +67,39 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 filter/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 filter/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/sheffieldwang/code/C++/filter/cmake-build-debug"/>
+				<Option working_dir="/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sheffieldwang/code/C++/DSP/filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sheffieldwang/code/C++/filter/Conv.h">
+		<Unit filename="/home/sheffieldwang/code/C++/DSP/filter/Conv.h">
 			<Option target="filter"/>
 		</Unit>
-		<Unit filename="/home/sheffieldwang/code/C++/filter/FFT.h">
+		<Unit filename="/home/sheffieldwang/code/C++/DSP/filter/FFT.h">
 			<Option target="filter"/>
 		</Unit>
-		<Unit filename="/home/sheffieldwang/code/C++/filter/Filter_Coff.h">
+		<Unit filename="/home/sheffieldwang/code/C++/DSP/filter/Filter_Coff.h">
 			<Option target="filter"/>
 		</Unit>
-		<Unit filename="/home/sheffieldwang/code/C++/filter/Signal.h">
+		<Unit filename="/home/sheffieldwang/code/C++/DSP/filter/Signal.h">
 			<Option target="filter"/>
 		</Unit>
-		<Unit filename="/home/sheffieldwang/code/C++/filter/main.c">
+		<Unit filename="/home/sheffieldwang/code/C++/DSP/filter/main.c">
 			<Option target="filter"/>
 		</Unit>
-		<Unit filename="/home/sheffieldwang/code/C++/filter/CMakeLists.txt">
+		<Unit filename="/home/sheffieldwang/code/C++/DSP/filter/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

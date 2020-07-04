@@ -20,7 +20,8 @@ int main()
     FILE* res = fopen("res.dat","w");
 
     //signal
-    Complex* x = sin_signal(2,100,2000);
+    //Complex* x = sin_signal(1,500,2000);
+    Complex* x = square_signal(1,100,2000);
     for(int i = 0; i < maxn; ++i)
     {
         fprintf(signal1,"%lf %.16lf\n",(double)i/maxn,x[i].real);
@@ -28,9 +29,9 @@ int main()
 
     //FFT
     Complex* X = FFT(x,maxn-1);
-    for(int i = 0; i < maxn; ++i)
+    for(int i = 0; i < maxn/2 +1 ; ++i)
     {
-        fprintf(FFT1,"%d %.16lf\n",i,X[i].real);
+        fprintf(FFT1,"%d %.16lf\n",2000*i/maxn,c_abs(X[i]).real/(maxn/2));
     }
 
 
@@ -66,11 +67,14 @@ int main()
 
     //FFT Conv
     Complex* Y = FFT(y,maxn-1);
+    double r;
     for(int i = 0; i<hL-1;i++)
         Y[i] = c_abs(Y[i]);
-    for(int i = 0; i < maxn; ++i)
+    for(int i = 0; i < maxn/2+1; ++i)
     {
-        fprintf(res,"%d %.16lf\n",i,Y[i].real);
+            r = c_abs(Y[i]).real/(maxn*3.5);
+
+        fprintf(res,"%d %.16lf\n",2000*i/maxn,r);
     }
 
 
